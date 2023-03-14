@@ -6,8 +6,8 @@
 
 import torch
 import numpy as np
-get_ipython().run_line_magic('matplotlib', 'inline')
-get_ipython().run_line_magic('config', "InlineBackend.figure_format = 'retina'")
+# get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('config', "InlineBackend.figure_format = 'retina'")
 
 import matplotlib.pyplot as plt
 
@@ -100,7 +100,7 @@ classes=['O','R']
 
 
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
 # helper function to un-normalize and display an image
 def imshow(img):
